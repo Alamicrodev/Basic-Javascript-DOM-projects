@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #db7947;
+}
+
+.container {
+	background: lightgray;
+	padding: 2em 4em;
+	border-radius: 0.6em;
+	box-shadow: 10px 5px 7px rgb(22, 22, 22, 0.3);
+	text-align: center;
+	width: 500px;
+}
+
+#button {
+	text-decoration: none;
+	background: black;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 1em;
+	border: 3px grey solid;
+}
+
+#quote {
+	font-size: 20px;
+	font-weight: bold;
+	background: #d1cac7;
+	padding: 20px;
+	border-left: 10px solid #db7947;
+	max-width: 90%;
+}
+
+#author {
+	font-size: 30px;
+	font-weight: bold;
+	color: goldenrod;
+}
