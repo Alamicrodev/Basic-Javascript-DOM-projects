@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	background: #4c3047;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	background: black;
+	width: 80%;
+	max-width: 900px;
+	height: auto;
+	position: relative;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.616);
+}
+
+#carousal__prev {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 2em;
+	position: absolute;
+	right: 95%;
+	top: 47%;
+}
+
+#carousal__prev:hover {
+	background: rgba(255, 255, 255, 0.363);
+	color: black;
+}
+
+#carousal__next {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 2em;
+	position: absolute;
+	left: 95%;
+	top: 47%;
+}
+
+#carousal__next:hover {
+	background: rgba(255, 255, 255, 0.363);
+	color: black;
+}
