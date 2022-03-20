@@ -1,6 +1,6 @@
 ## Project Information:
 
-This is a simple JavaScript DOM manipulation project. It is a simple clock which shows current time in 12 hour format.
+This is a simple JavaScript DOM manipulation project. It is a simple clock which shows current live time in 12 hour format.
 
 ## Languages and Tools:
 
