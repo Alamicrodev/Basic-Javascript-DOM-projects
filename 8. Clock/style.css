@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: black;
+	color: #03a062;
+	font-family: "orbitron", sans-serif;
+}
+
+.container {
+	box-shadow: 00px 0px 10px #03a062;
+	padding: 20px 40px;
+}
+
+.container h1 {
+	font-size: 40px;
+}
