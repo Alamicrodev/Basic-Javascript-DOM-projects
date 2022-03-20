@@ -1,0 +1,65 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #4c3047;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background: white;
+	padding: 20px;
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 10px black;
+	text-align: center;
+}
+
+#inputscr {
+	background: rgb(67, 57, 70);
+	height: 55px;
+	padding: 0 10px;
+	font-size: 30px;
+	width: 400px;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	background: #91738b;
+	text-align: center;
+	font-size: 25px;
+	padding: 12px 7px;
+}
+
+a:hover {
+	background: white;
+	color: black;
+	font-size: 30px;
+	transition: background 0.2s, font-size 0.2s;
+}
+
+.operator {
+	background: rgb(238, 133, 133);
+}
+
+#clearbtn {
+	background: rgb(126, 107, 107);
+}
+
+#equalbtn {
+	background: rgb(156, 136, 22);
+}
