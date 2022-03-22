@@ -82,42 +82,42 @@ function validateForm() {
 		if (username.parentElement.contains(msgBox)) {
 			username.parentElement.removeChild(msgBox);
 		}
-	}
 
-	// Checking if the password validates
-	if (passwordValidator(password.value)[0]) {
-		// Removing alert if it exists
-		if (password.parentElement.contains(msgBox)) {
-			password.parentElement.removeChild(msgBox);
-		}
+		// Checking if the password validates
+		if (passwordValidator(password.value)[0]) {
+			// Removing alert if it exists
+			if (password.parentElement.contains(msgBox)) {
+				password.parentElement.removeChild(msgBox);
+			}
 
-		if (repeatPass.value == password.value) {
-			// Checking to see if the matching is not because of both fields being empty
-			if (password.value != "") {
-				if (password.parentElement.contains(msgBox)) {
-					password.parentElement.removeChild(msgBox);
+			if (repeatPass.value == password.value) {
+				// Checking to see if the matching is not because of both fields being empty
+				if (password.value != "") {
+					if (password.parentElement.contains(msgBox)) {
+						password.parentElement.removeChild(msgBox);
+					}
+
+					submitBtn.removeAttribute("disabled");
 				}
+			} else {
+				// Checking the mis-match is not because of repeat pass being empty.
+				if (repeatPass.value != "") {
+					msgBox.innerHTML = "Password does not match!";
 
-				submitBtn.removeAttribute("disabled");
-			}
-		} else {
-			// Checking the mis-match is not because of repeat pass being empty.
-			if (repeatPass.value != "") {
-				msgBox.innerHTML = "Password does not match!";
+					password.parentElement.appendChild(msgBox);
 
-				password.parentElement.appendChild(msgBox);
-
-				submitBtn.setAttribute("disabled", "true");
+					submitBtn.setAttribute("disabled", "true");
+				}
 			}
 		}
-	}
-	// Else displaying the passed in message and disabling the submit button
-	else {
-		msgBox.innerHTML = passwordValidator(password.value)[1];
+		// Else displaying the passed in message and disabling the submit button
+		else {
+			msgBox.innerHTML = passwordValidator(password.value)[1];
 
-		password.parentElement.appendChild(msgBox);
+			password.parentElement.appendChild(msgBox);
 
-		submitBtn.setAttribute("disabled", "true");
+			submitBtn.setAttribute("disabled", "true");
+		}
 	}
 }
 
