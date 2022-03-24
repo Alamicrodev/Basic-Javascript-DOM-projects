@@ -2,6 +2,8 @@
 
 This repo is a collection of 10 basic JS DOM manipulation projects. The projects cover topics like getting elements from DOM, creating custom elements and appending them to other elements, getting and changing attributes, getting and changing internal HTML, getting and changing CSS styles and adding animations.
 
+Note: The projects are only for JavaScript DOM manipulation training, so the designs will not be responsive to different screen sizes.  
+
 ### Projects List
 
 1. Random Background Toggler
