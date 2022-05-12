@@ -13,7 +13,7 @@ msgBox.style.color = "red";
 msgBox.style.padding = "10px 10px";
 msgBox.style.background = "white";
 msgBox.style.borderLeft = "solid #FFCCCB 10px";
-msgBox.style.width = "250px";
+msgBox.style.width = "90%";
 
 // For validation of password
 function passwordValidator(password) {

@@ -7,6 +7,9 @@ var addBtn = document.querySelector("#addbtn");
 // Subtract Button
 var subtractBtn = document.querySelector("#subtractbtn");
 
+// Reset Button
+let resetButton = document.querySelector("#resetbtn");
+
 // The counting number
 let countnum = 0;
 
@@ -25,7 +28,7 @@ var addBtnClick = () => {
 	}
 
 	// Change the value on page
-	counter.innerHTML = countnum;
+	counter.innerText = countnum;
 
 	// Create Animation
 	counter.animate(
@@ -53,7 +56,7 @@ var subtractBtnClick = () => {
 		counter.style.color = "green";
 	}
 
-	counter.innerHTML = countnum;
+	counter.innerText = countnum;
 
 	counter.animate(
 		[
@@ -67,6 +70,27 @@ var subtractBtnClick = () => {
 	);
 };
 
+// reset button event handler
+function resetBtnClick() {
+	countnum = 0;
+	counter.style.color = "white";
+	counter.innerText = countnum;
+
+	counter.animate(
+		[
+			{ transform: "scale(0, 0)", opacity: 0.2 },
+			{ transform: "scale(1, 1)", opacity: 1 },
+		],
+		{
+			duration: 500,
+			fill: "forwards",
+		}
+	);
+}
+
+// adding event handlers
 addBtn.addEventListener("click", addBtnClick);
 
 subtractBtn.addEventListener("click", subtractBtnClick);
+
+resetButton.addEventListener("click", resetBtnClick);

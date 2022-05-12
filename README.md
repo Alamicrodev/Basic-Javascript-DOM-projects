@@ -1,6 +1,6 @@
-## 10-basic-Javascript-DOM-projects
+## 10+-basic-Javascript-DOM-projects
 
-This repo is a collection of 10 basic JS DOM manipulation projects. The projects cover topics like getting elements from DOM, creating custom elements and appending them to other elements, getting and changing attributes, getting and changing internal HTML, getting and changing CSS styles and adding animations.
+This repo is a collection of 10+ basic JS DOM manipulation projects. The projects cover topics like getting elements from DOM, creating custom elements and appending them to other elements, getting and changing attributes, getting and changing internal HTML, getting and changing CSS styles, working with local storage and adding animations.
 
 ### Projects List
 
@@ -14,6 +14,8 @@ This repo is a collection of 10 basic JS DOM manipulation projects. The projects
 8. Clock
 9. Navbar
 10. Form Validation
+11. Blackjack game
+12. Leads Tracker chrome extension
 
 ### Languages and Tools:
 

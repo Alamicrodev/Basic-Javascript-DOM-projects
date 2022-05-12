@@ -1,0 +1,110 @@
+/******************************************
+/* CSS
+/*******************************************/
+html {
+	font-size: 62.5%;
+}
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+	text-align: center;
+	background: center/cover no-repeat
+		url("https://t4.ftcdn.net/jpg/03/25/38/41/360_F_325384191_sg1D5lYWfRedGQsBm8xIHnsSAUUUVxGE.jpg");
+	height: 100vh;
+}
+
+body div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body h1 {
+	font-size: 6em;
+	color: yellow;
+}
+
+.btn {
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 0.7em 1.2em;
+	color: yellow;
+	display: inline-block;
+	background-color: green;
+	border-radius: 3px;
+	width: 100px;
+}
+
+.btn:nth-child(4) {
+	margin-right: 10px;
+}
+
+.btn:nth-child(5) {
+	margin-left: 10px;
+}
+
+#intro > div {
+	text-align: left;
+	margin: 10px 0;
+}
+
+#intro label {
+	font-size: 2em;
+	display: block;
+	color: white;
+	margin: 15px 0px;
+	text-align: left;
+	width: 100%;
+}
+
+#intro input {
+	height: 30px;
+	width: 100%;
+	font-size: 1.5em;
+	padding-left: 5px;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+}
+
+#intro input {
+	box-shadow: 2px 2px 3px yellow;
+}
+
+#playbtn {
+	margin-top: 20px;
+}
+
+#main {
+	display: none;
+}
+
+#main span {
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+	margin: 20px 0;
+	color: white;
+}
+
+#userscr {
+	color: white;
+	font-size: 8em;
+	margin: 30px 0;
+	padding: 0 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

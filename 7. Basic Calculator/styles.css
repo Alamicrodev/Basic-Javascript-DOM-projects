@@ -1,3 +1,7 @@
+html {
+	box-sizing: border-box;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -24,7 +28,7 @@ body {
 	height: 55px;
 	padding: 0 10px;
 	font-size: 30px;
-	width: 400px;
+	/* width: 400px; */
 	color: white;
 	outline: none;
 	border: none;
@@ -48,7 +52,7 @@ a {
 a:hover {
 	background: white;
 	color: black;
-	font-size: 30px;
+	font-size: 25px;
 	transition: background 0.2s, font-size 0.2s;
 }
 
@@ -62,4 +66,37 @@ a:hover {
 
 #equalbtn {
 	background: rgb(156, 136, 22);
+}
+
+/* media queries */
+
+@media screen and (max-width: 500px) {
+	#inputscr {
+		font-size: 20px;
+		height: 70px;
+	}
+
+	a:hover {
+		transition: background 0.2s;
+	}
+
+	.container {
+		height: 90vh;
+		width: 100%;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#inputscr {
+		font-size: 20px;
+	}
+
+	.buttons {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.container {
+		width: 100%;
+	}
 }

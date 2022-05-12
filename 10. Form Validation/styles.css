@@ -10,6 +10,7 @@ body {
 
 .container {
 	background: white;
+	width: 400px;
 	padding: 10px 30px;
 	text-align: center;
 	border-radius: 0.3em;
@@ -37,7 +38,7 @@ label {
 
 input {
 	height: 25px;
-	width: 250px;
+	width: 100%;
 	outline: none;
 	border: solid 1px #4c3047;
 	border-radius: 0.3em;
@@ -69,4 +70,11 @@ input:focus {
 	background-color: grey;
 	color: white;
 	border: none;
+}
+
+/* media queries */
+@media screen and (max-width: 400px) {
+	.container {
+		width: 100%;
+	}
 }

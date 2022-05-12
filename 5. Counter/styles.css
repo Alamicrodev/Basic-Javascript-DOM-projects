@@ -16,7 +16,6 @@ body {
 	border-radius: 0.8em;
 	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 	text-align: center;
-	min-width: 300px;
 }
 
 .container h3 {
@@ -30,13 +29,18 @@ body {
 }
 
 #addbtn,
-#subtractbtn {
+#subtractbtn,
+#resetbtn {
 	text-decoration: none;
 	color: white;
 	padding: 10px 20px;
 	border: solid white 1px;
 	display: inline-block;
 	margin-bottom: 10px;
+}
+
+#resetbtn {
+	display: block;
 }
 
 #addbtn {

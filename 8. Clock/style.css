@@ -18,3 +18,10 @@ body {
 .container h1 {
 	font-size: 40px;
 }
+
+/* media queries */
+@media screen and (max-width: 450px) {
+	.container {
+		box-shadow: none;
+	}
+}

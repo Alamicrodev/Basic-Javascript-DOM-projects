@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Black Jack</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div>
+		<h1>Black Jack</h1>
+
+		<!-- intro section -->
+		<section id="intro">
+			<div>
+				<label for="nameinput">Please enter your name:</label>
+				<input type="text" id="nameinput">
+			</div>
+			<div>
+				<label for="betinput">Please enter your bet ($):</label>
+				<input type="number" id="betinput">
+			</div>
+
+			<a id="playbtn" class="btn" href="#">Play</a>
+
+		</section>
+		<!-- end of intro section -->
+
+		<!-- main section -->
+		<section id="main">
+			<span id="userprofile"> </span>
+			<span>Your Total:</span>
+			<h1 id="userscr"> 5 </h1>
+			<span id="usercards">Your Cards: </span>
+			<a id="hitbtn" onclick="hitClicked()" class="btn" href="#">hit</a>
+			<a id="standbtn" onclick="standClicked()" class="btn" href="#">stand</a>
+		</section>
+		<!-- end of main section -->
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

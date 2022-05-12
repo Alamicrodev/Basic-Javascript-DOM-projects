@@ -1,0 +1,11 @@
+{
+	"manifest_version": 3,
+	"name": "Leads Tracker",
+	"description": "An extentions to track all the leads you have found.",
+	"version": "1.0",
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "images/icon.png"
+	},
+	"permissions": ["tabs"]
+}
