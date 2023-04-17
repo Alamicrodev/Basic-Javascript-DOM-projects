@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/black%20jack%20game/)
 
 This is a simple JavaScript DOM manipulation project. It is the casino Black Jack Game. The game asks for your name and bet ammount and then allows you to hit or stand. Make sure your score is higher than the computer while keeping it below 21.
 

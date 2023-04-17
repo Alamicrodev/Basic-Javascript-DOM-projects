@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/5.%20counter/#)
 
 This is a simple JavaScript DOM manipulation project. The project is a simple counter in which if the counter is below 0 its color is red, its white at 0 and green above 0. We will also add a little animation on the counting number when the counter's add or subtract button is clicked using element animate method within JS.
 

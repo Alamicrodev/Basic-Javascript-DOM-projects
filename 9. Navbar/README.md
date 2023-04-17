@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/9.%20navbar/#)
 
 This is a simple JavaScript DOM manipulation project. A simple nav bar that can be opened and closed by the toggle of a button. The project also includes some transitions created from within JS on the navbar and the hamburger button.
 

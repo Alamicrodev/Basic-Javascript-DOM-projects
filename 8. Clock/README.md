@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/8.%20clock/)
 
 This is a simple JavaScript DOM manipulation project. It is a simple clock which shows current live time in 12 hour format.
 

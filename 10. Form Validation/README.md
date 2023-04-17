@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/10.%20form%20validation/)
 
 This is a simple JavaScript DOM manipulation project. The project shows HTML form validation from within JavaScript. The form will check if the given username is not equal to "cabbage". It will also make sure that the chosen password contains an uppercase alphabet, a lowercase alphabet, a number, a special character and does not contain the username. Finally, it will check if the repeated password is equal to the chosen password and enable the sign up button.
 

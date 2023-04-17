@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/6.%20image%20carousal/#)
 
 This is a simple JavaScript DOM manipulation project. The project is a simple image carousal, which changes the image displayed if the next or backward button is clicked. The project also includes the definition of animations within JS.
 

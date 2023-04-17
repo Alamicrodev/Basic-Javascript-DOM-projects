@@ -1,4 +1,4 @@
-## Project Information:
+## Project Information: [Visit Here](https://basicwebjsprojects.netlify.app/4.%20the%20message/)
 
 This is a simple JavaScript DOM manipulation project involving an input. On the click of the button the message written in the input is displayed on the page. If the input is left empty or filled with whitespace an alert is displayed instead.
 
